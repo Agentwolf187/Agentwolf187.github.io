@@ -17,12 +17,12 @@ h1 {
     max-width: fit-content;
     padding: 5px;    
     color: white;
+    text-align: center;
     text-shadow: 0px 3px 4px rgb(65, 64, 64);
     font-family: "Borel", cursive;
     font-weight: 400;
     font-style: normal;
-    position: inherit;
-    
+    display: wrap;
 }
 
 /* main text */
@@ -51,15 +51,28 @@ p {
 
 /* navigation bar */
 .navbar{
+
     position: sticky;
+    align-items: center;
     top: 0;
     left: 0;
-    width: full;
     height: 60px;
     background-color: rgb(226, 142, 192);
     z-index: 1;
 
 }
+
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+
 
 
 /* Main text box */
@@ -142,27 +155,27 @@ td {
 
 
 /* Song Images */
-.album-cover {
-    width: 300px;
-    height: auto;
-    padding: 50px;
-    text-align: center;
-    margin: 80px;
-    max-width: fit-content;
-    border-radius: 15px;
-    border: solid 5px white;
-    background-color: lightpink;
-    
-
-
-}
 
 .song-list {
-    margin: auto;
-    max-width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 100%;
     padding: 10px;
+    left: 50%;
+    text-align: center;
+    
+}
+.song-list ol {
+    list-style: none;
 }
 
+.song-list a {
+    text-decoration: none;
+    color: rgb(0, 104, 16);
+    text-shadow: none;
+    padding: 10px;
+    font-size: 20px;
+}
 /* customized song links */
 #song-link {
     text-decoration: none;
