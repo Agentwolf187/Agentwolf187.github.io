@@ -17,7 +17,10 @@ h1 {
     max-width: fit-content;
     padding: 5px;    
     color: white;
-    font-family: "Leckerli One", cursive;
+    text-shadow: 0px 3px 4px rgb(65, 64, 64);
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
     position: inherit;
     
 }
@@ -67,16 +70,17 @@ p {
     margin-bottom: 50px;
     padding: 10px;
     max-width: fit-content;
-    background-color: lightpink;
+    background-color: rgba(255, 182, 193, .55);
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(64, 64, 64);
-    opacity: .9;
+
 }
 
 .text-box p {
     color: rgb(0, 104, 16);
     font-size: 23px;
     text-decoration: none;
+
     font-family: "arial rounded mt bold", sans-serif;
 }
 /* Table */
@@ -89,9 +93,9 @@ table {
     margin-bottom: 50px;
     max-width: fit-content;
     padding: 10px;
-    background-color: lightpink;
+    background-color: rgba(255, 182, 193, .55);
     border-radius: 10px;
-    border: solid 5px rgb(62, 232, 62);
+    border: solid 5px rgba(62, 232, 62, 0.5);
     box-shadow: 0 0 10px rgb(64, 64, 64);
     font-family: "arial rounded mt bold", sans-serif;
 
@@ -105,7 +109,7 @@ th {
 td {
     padding: 5px;
     font-size: 20px;
-    border-right: solid 5px rgb(62, 232, 62);
+    border-right: solid 5px rgba(62, 232, 62, 0.5);
     color: rgb(0, 104, 16)
 
 
@@ -123,7 +127,7 @@ td {
     opacity: 0.8;
     padding: 10px;
     text-align: center;
-    background-color: lightpink;
+    background-color: rgba(255, 182, 193, .55);
     box-shadow: 0 0 10px rgb(64, 64, 64);
     bottom: 0;
     left: 0;
@@ -173,7 +177,7 @@ td {
 
 }
 #song-link:active {
-    background-color: darkgray;
+    background-color: rgb(141, 100, 133);
     color: white;
     border-radius: 55px;
     opacity: .9;
@@ -238,21 +242,25 @@ li {
 a {
     text-decoration: none;
     color: white;
+    text-shadow: 0px 3px 4px rgb(65, 64, 64);
     padding: 10px;
     font-size: 20px;
 }
 a:hover {
     background-color: rgb(196, 122, 166);
     color: white;
+    text-shadow: 0px 3px 4px rgb(65, 64, 64);
     border-radius: 5px;
 }
 a:active {
     background-color: rgb(146, 93, 124);
     color: white;
+    text-shadow: 0px 3px 4px rgb(65, 64, 64);
     border-radius: 5px;
 }
 a:visited {
     color: white;
+    text-shadow: 0px 3px 4px rgb(65, 64, 64);
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
