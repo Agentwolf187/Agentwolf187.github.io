@@ -6,9 +6,10 @@
 
 /* background image */
 body {
-    background-color: white;
+    background-image: url("img/background.png");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 h1 {
@@ -17,6 +18,7 @@ h1 {
     padding: 5px;    
     color: white;
     font-family: "Leckerli One", cursive;
+    position: inherit;
     
 }
 
@@ -26,19 +28,21 @@ h2 {
     margin: auto;
     max-width: fit-content;
     padding: 10px;
-    color: white;
-    text-decoration: underline;
+    color: rgb(38, 105, 46);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: "arial rounded mt bold", cursive;
+    text-shadow: 0px 0px 10px white
 }
 
 p {
     margin: auto;
     max-width: 600px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
-    color: white;
+    color: black;
+    font-family: "arial rounded mt bold", sans-serif;
 }
 
 
@@ -47,9 +51,9 @@ p {
     position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
+    width: full;
     height: 60px;
-    background-color: gray;
+    background-color: rgb(226, 142, 192);
     z-index: 1;
 
 }
@@ -63,15 +67,17 @@ p {
     margin-bottom: 50px;
     padding: 10px;
     max-width: fit-content;
-    background-color: darkgray;
+    background-color: lightpink;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgb(64, 64, 64);
     opacity: .9;
 }
 
 .text-box p {
-    color: black;
-    font-size: 20px;
+    color: rgb(0, 104, 16);
+    font-size: 23px;
     text-decoration: none;
+    font-family: "arial rounded mt bold", sans-serif;
 }
 /* Table */
 
@@ -83,22 +89,25 @@ table {
     margin-bottom: 50px;
     max-width: fit-content;
     padding: 10px;
-    background-color: darkgray;
+    background-color: lightpink;
     border-radius: 10px;
-    border: solid 5px white;
-    opacity: .9;
+    border: solid 5px rgb(62, 232, 62);
+    box-shadow: 0 0 10px rgb(64, 64, 64);
+    font-family: "arial rounded mt bold", sans-serif;
 
 }
 th {
     font-size: 20px;
+    color: rgb(0, 104, 16);
+    
     
 }
 td {
-    padding: 15px;
+    padding: 5px;
     font-size: 20px;
-    border-color: white;
-    border-style: solid;
-    border-width: 5px;
+    border-right: solid 5px rgb(62, 232, 62);
+    color: rgb(0, 104, 16)
+
 
 }
 
@@ -114,8 +123,8 @@ td {
     opacity: 0.8;
     padding: 10px;
     text-align: center;
-    background-color: darkgray;
-    border-radius: 10px;
+    background-color: lightpink;
+    box-shadow: 0 0 10px rgb(64, 64, 64);
     bottom: 0;
     left: 0;
     width: 100%;
@@ -132,11 +141,14 @@ td {
 .album-cover {
     width: 300px;
     height: auto;
+    padding: 50px;
     text-align: center;
     margin: 80px;
     max-width: fit-content;
-    border-radius: 50px;
+    border-radius: 15px;
     border: solid 5px white;
+    background-color: lightpink;
+    
 
 
 }
@@ -154,10 +166,10 @@ td {
 }
 
 #song-link:hover {
-    background-color: dimgray;
+    background-color: rgb(187, 147, 177);
     color: white;
     border-radius: 55px;
-    opacity: .9;
+    opacity: .5;
 
 }
 #song-link:active {
@@ -188,7 +200,7 @@ input[type="text"]{
 
 textarea {
     margin: 50px;
-    width: 800px;
+    width: 80%;
     max-height: 200px;
     color: black;
     resize: none;
@@ -199,7 +211,8 @@ textarea {
 input[type="submit"]{
     margin: auto;
     color: white;
-    background-color: gray;
+    font-size: 20px;;
+    background-color: rgb(226, 142, 192);
     opacity: 1;
 }
 
@@ -229,12 +242,12 @@ a {
     font-size: 20px;
 }
 a:hover {
-    background-color: dimgray;
+    background-color: rgb(196, 122, 166);
     color: white;
     border-radius: 5px;
 }
 a:active {
-    background-color: darkgray;
+    background-color: rgb(146, 93, 124);
     color: white;
     border-radius: 5px;
 }
